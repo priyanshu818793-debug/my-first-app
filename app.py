@@ -23,7 +23,7 @@ with col1:
     with tab2:
         st.subheader("Delicious Meals")
         st.success("🔹 बटर पनीर - ₹280 | 🔹 शाही बिरयानी - ₹180")
-        st.image("https://images.unsplash.com", caption="Main Course", width=400)
+        st.image("pp.png", caption="Main Course", width=400)
 
     with tab3:
         st.subheader("Refreshing Beverages")
