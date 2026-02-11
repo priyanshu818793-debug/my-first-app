@@ -30,7 +30,7 @@ with col1:
     with tab3:
         st.subheader("Refreshing Beverages")
         st.warning("🔹 कोल्ड कॉफ़ी - ₹120 | 🔹 ताज़ा नींबू पानी - ₹60")
-        st.image("cc.jpg", caption="cold coffee", width=400)
+        st.image("cc.avif", caption="cold coffee", width=400)
         st.image("np.jpg", caption="cold coffee", width=400)
 
 # पेमेंट सेक्शन (QR कोड के साथ)
@@ -49,3 +49,4 @@ with col2:
 # नीचे फुटर
 st.markdown("---")
 st.write("📍 पता: आपका पसंदीदा चौराहा, दिल्ली | 📞 संपर्क: +91 1234567890")
+
