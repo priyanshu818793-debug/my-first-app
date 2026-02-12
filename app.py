@@ -19,19 +19,19 @@ with col1:
         st.subheader("Crispy Snacks")
         st.info("🔹 पनीर टिक्का - ₹220 | 🔹 मसाला फ्राइज़ - ₹90")
         st.image("pk.jpg", caption="Tandoori Special", width=400)
-        st.image("mf.jpg", caption="Tandoori Special", width=400)
+    
 
     with tab2:
         st.subheader("Delicious Meals")
         st.success("🔹 बटर पनीर - ₹280 | 🔹 शाही बिरयानी - ₹180")
         st.image("pp.jpg", caption="Main Course", width=400)
-        st.image("sp.jpg", caption="Main Course", width=400)
+
 
     with tab3:
         st.subheader("Refreshing Beverages")
         st.warning("🔹 कोल्ड कॉफ़ी - ₹120 | 🔹 ताज़ा नींबू पानी - ₹60")
         st.image("cc.jpg", caption="cold coffee", width=400)
-        st.image("np.jpg", caption="cold coffee", width=400)
+    
 
 # पेमेंट सेक्शन (QR कोड के साथ)
 with col2:
