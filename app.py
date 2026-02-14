@@ -18,19 +18,19 @@ with col1:
     with tab1:
         st.subheader("Crispy Snacks")
         st.info("🔹 पनीर टिक्का - ₹220 | 🔹 मसाला फ्राइज़ - ₹90")
-        st.image("pk.jpg", caption="Tandoori Special", width=400)
+        st.image("pk.jpg", caption="Tandoori Special")
     
 
     with tab2:
         st.subheader("Delicious Meals")
         st.success("🔹 बटर पनीर - ₹280 | 🔹 शाही बिरयानी - ₹180")
-        st.image("pp.jpg", caption="Main Course", width=400)
+        st.image("pp.jpg", caption="Main Course")
 
 
     with tab3:
         st.subheader("Refreshing Beverages")
         st.warning("🔹 कोल्ड कॉफ़ी - ₹120 | 🔹 ताज़ा नींबू पानी - ₹60")
-        st.image("cc.jpg", caption="cold coffee", width=400)
+        st.image("cc.jpg", caption="cold coffee")
     
 
 # पेमेंट सेक्शन (QR कोड के साथ)
@@ -49,3 +49,4 @@ with col2:
 # नीचे फुटर
 st.markdown("---")
 st.write("📍 पता: आपका पसंदीदा चौराहा, दिल्ली | 📞 संपर्क: +91 1234567890")
+
