@@ -9,9 +9,9 @@ st.write("अपना डेटा नीचे भरें और तुर�
 # इमेज डिस्प्ले करना (सावधानी: सुनिश्चित करें कि 'logo.png' आपके GitHub फोल्डर में है)
 # अगर इमेज नहीं है, तो इस लाइन को हटा दें या कमेंट कर दें
 try:
-    st.image("logo.jpg", caption="आपका स्वागत है!", width=300)
+    st.image("logo.jpg",caption="आपका स्वागत है!",width=300)
 except:
-    st.info("नोट: 'logo.jpg' फाइल नहीं मिली, इसलिए इमेज नहीं दिखाई गई।")
+    st.info("नोट:'logo.jpg' फाइल नहीं मिली, इसलिए इमेज नहीं दिखाई गई।")
 
 # यूजर इनपुट
 col1, col2 = st.columns(2)
@@ -34,6 +34,7 @@ if st.button("कैलकुलेट करें"):
         res = num1 / num2 if num2 != 0 else "Error (0 से भाग संभव नहीं)"
     
     st.success(f"नतीजा: {res}")
+
 
 
 
