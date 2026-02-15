@@ -34,7 +34,3 @@ if st.button("कैलकुलेट करें"):
         res = num1 / num2 if num2 != 0 else "Error (0 से भाग संभव नहीं)"
     
     st.success(f"नतीजा: {res}")
-
-
-
-
